@@ -65,7 +65,7 @@ Mensajes de Confirmación y Error
 
 La aplicación utiliza cuadros de diálogo modal (MessageBox) para informar al usuario sobre el estado de las operaciones:
 Mensajes de Error y Advertencia
-• Omitir ID en búsquedas o acciones: "Ingrese un ID para buscar." / "El campo ID es obligatorio."
+• Omitir ID en búsquedas o acciones: "Ingrese un ID para buscar." El campo ID es obligatorio."
 • Formato numérico incorrecto: "Edad inválida. Ingrese un número entero."
 • Búsqueda sin resultados: "No se encontró el paciente con ese ID."
 Mensajes de Confirmación y Éxito
@@ -76,25 +76,30 @@ Mensajes de Confirmación y Éxito
 Evidencia Visual y Ejemplos de Uso
 1. Vista General del Formulario
 
+<img width="601" height="269" alt="image" src="https://github.com/user-attachments/assets/6975ad18-c051-461d-9f40-cff9aaa51890" />
 
  
 2. Ejemplo: Agregar Paciente
 • Acción: Completar los campos del paciente y presionar Agregar.
+<img width="540" height="242" alt="image" src="https://github.com/user-attachments/assets/f1b33456-afbc-4c12-9a98-a1ba37da92ea" />
 
 • Resultado: Cuadro de confirmación e inclusión del nuevo registro en la grilla.
 3. Ejemplo: Eliminar Paciente
 • Acción: Seleccionar o ingresar el ID y hacer clic en Eliminar.
 • Resultado: Ventana modal de confirmación y remoción del paciente de la lista.
+<img width="541" height="240" alt="image" src="https://github.com/user-attachments/assets/a668ffa8-9a78-4afd-b70a-5c27d03069e3" />
 
 4. Ejemplo: Limpiar
 • Acción: Seleccionar Limpiar para poder registrar otro paciente.
 • Resultado: La ventana queda limpia para agregar otro paciente.
+<img width="553" height="249" alt="image" src="https://github.com/user-attachments/assets/85c8bf6c-1485-4f80-a22b-22f06b1c42ba" />
 
  
 5. Ejemplo: Búsqueda y Listado
 • Acción: Buscar un paciente por su ID
 • Resultado: Información del paciente
+<img width="607" height="273" alt="image" src="https://github.com/user-attachments/assets/65037a2e-2dac-48a0-9207-1cbb73c75282" />
 
 Construido con:
-• C# - Lenguaje de programación.
-• Windows Forms - Framework para la interfaz gráfica de usuario.
+• C# - lenguaje de programación.
+• Windows Forms - framework para la interfaz gráfica de usuario.
